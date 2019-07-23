@@ -25,6 +25,26 @@
 				color: #000;
 				float: left;
 				padding: 8px 16px;
+				/*  圆角样式  */
+				/* border-radius: 5px; */
+				/*  鼠标悬停过渡效果  */
+				transition: background-color .3s;
+				/*   带边框分页   */
+				border: 1px solid #ddd;
+				/*   分 页 间 隔   */
+				margin: 0 4px;
+			}
+			/*   点击及鼠标悬停分页样式   */
+			ul.pagination li a.active{
+				background-color: #4caf50;
+				color: #fff;
+				/*  圆角样式  */
+				/* border-radius: 5px; */
+				/*   带边框分页   */
+				border: 1px solid #4CAF50;
+			}
+			ul.pagination li a:hover:not(.active){
+				background-color: #ddd;
 			}
 		</style>
 	</head>

@@ -124,6 +124,11 @@
 				float: left;
 				transform: rotate(-8deg);
 			}
+			div.blank{
+				height: 350px;
+				background-color: #e9e9e9;
+			}
+			
 		</style>
 		<script src="js/jquery-3.4.1.min.js"></script>
 	</head>
@@ -162,13 +167,17 @@
 		<div class="bor-img">border-image 属性允许您规定用于边框的图片！</div>
 		<hr>
 		
-		<div class="polar rotate-left">
-			<img src="img/88622c83f1.jpeg" width="284" height="213">
-			<p class="caption">The pulpit rock in Lysefjorden, Norway.</p>
+		<div class="float">
+			<div class="polar rotate-left">
+				<img src="img/88622c83f1.jpeg" width="284" height="213">
+				<p class="caption">The pulpit rock in Lysefjorden, Norway.</p>
+			</div>
+			<div class="polar rotate-right">
+				<img src="img/link.jpg" width="284" height="213">
+				<p class="caption">Monterosso al Mare. One of the five villages in Cinque Terre.</p>
+			</div>
 		</div>
-		<div class="polar rotate-right">
-			<img src="img/link.jpg" width="284" height="213">
-			<p class="caption">Monterosso al Mare. One of the five villages in Cinque Terre.</p>
-		</div>
+		
+		
 	</body>
 </html>

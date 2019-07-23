@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>CSS3 渐变</title>
+		<style>
+			.grad1{
+				height: 200px;
+				/* background: linear-gradient(red,blue); */
+				
+				/* background: linear-gradient(top left, red, blue);
+				background: linear-gradient(to bottom right, red, blue); */
+				
+				/* background: linear-gradient(45deg, red,blue); */
+				
+				/* background: linear-gradient(to right,red,orange,yellow,green,blue,indigo,violet); */
+				
+				/* background: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1)); */
+				
+				background: repeating-linear-gradient(to right,red, yellow 10%, green 20%); 
+			}
+			.grad2{
+				width: 200px;
+				height: 150px;
+				/* background: radial-gradient(red,green,blue); */
+				
+				/* background: radial-gradient(red 5%, green 15%, blue 60%); */
+				
+				/* background: radial-gradient(circle, red, yellow, green); */
+				
+				background: radial-gradient(ellipse, red, yellow, green);
+			}
+			.grad3{  /* 不能实现  */
+				width: 150px;
+				height: 150px;
+				/* background: radial-gradient(65% 55%,closest-side,blue,green,yellow,red);
+				background: radial-gradient(65% 55%,fathest-side,blue,green,yellow,red);
+				background: radial-gradient(65% 55%,closest-corner,blue,green,yellow,red); */
+				/* background: radial-gradient(65% 55%,farthest-corner,blue,green,yellow,red);*/
+				background: repeating-radial-gradient(red, yellow 10%, green 15%); 
+			}
+		</style>
+	</head>
+	<body>
+		<div class="blank"></div>
+		<hr>
+		<div class="grad1">线性渐变</div>
+		<hr>
+		<div class="grad2">径向渐变</div>
+		<hr>
+		<div class="grad3">径向渐变</div>
+		<hr>
+	</body>
+</html>

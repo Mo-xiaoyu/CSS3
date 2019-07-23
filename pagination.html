@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style>
+			/*  简单分页  */
+			html,body,ul,li,a{
+				margin: 0;
+				padding: 0;
+			}
+			ul,li{
+				list-style: none;
+			}
+			ul,li,a{
+				text-decoration: none;
+			}
+			ul.pagination{
+				display: inline-block;
+			}
+			ul.pagination li{
+				display: inline;
+			}
+			ul.pagination li a{
+				color: #000;
+				float: left;
+				padding: 8px 16px;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>简单分页</h1>
+		<ul class="pagination">
+			<li><a href="#">«</a></li>
+			<li><a class="active" href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li><a href="#">5</a></li>
+			<li><a href="#">6</a></li>
+			<li><a href="#">7</a></li>
+			<li><a href="#">»</a></li>
+		</ul>
+	</body>
+</html>
